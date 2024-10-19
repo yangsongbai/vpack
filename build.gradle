@@ -6,14 +6,14 @@ buildscript {
     }
     dependencies {
         // ES版本号
-        classpath "org.elasticsearch.gradle:build-tools:6.8.23"
+        classpath "org.elasticsearch.gradle:build-tools:7.10.2"
     }
 }
 
 subprojects {
 
     // 插件版本号
-    version = '6.8.23.1'
+    version = '7.10.2.1'
 
     repositories {
         mavenLocal()

@@ -9,7 +9,7 @@ esplugin {
 }
 
 test.enabled = false
-integTest.enabled = false
+//integTest.enabled = false
 
 tasks.withType(JavaCompile) {
     // Try to turn them all off automatically
